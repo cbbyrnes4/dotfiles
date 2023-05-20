@@ -1,8 +1,8 @@
 [user]
-	name = chaz
+    name = chaz
     email = cbbyrnes4@gmail.com
 [core]
-	autocrlf = input
+    autocrlf = input
     edit = vim
 [init]
     defaultBranch = main
@@ -11,5 +11,5 @@
 [fetch]
     prune = true
 [alias]
-    empty = "git commit --allow-empty"
+    empty = "!git commit --allow-empty"
     delete-local-merged = "!git fetch && git branch --merged | egrep -v 'master|dev|main|staging'  | xargs git branch -d"
