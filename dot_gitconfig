@@ -1,6 +1,6 @@
 [user]
 	name = chaz
-	email = cbbyrnes4@gmail.com
+    email = cbbyrnes4@gmail.com
 [core]
 	autocrlf = input
     edit = vim
