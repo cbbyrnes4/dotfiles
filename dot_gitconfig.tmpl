@@ -1,6 +1,9 @@
 [user]
     name = {{ .name | quote }} 
     email = {{ .email | quote }}
+    {{- if .gh_token }}
+    password = {{ .gh_token | quote }}
+    {{- end }}
 [core]
     autocrlf = input
     edit = vim
