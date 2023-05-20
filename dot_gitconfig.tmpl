@@ -1,5 +1,5 @@
 [user]
-    name = chaz
+    name = {{ .name | quote }} 
     email = {{ .email | quote }}
 [core]
     autocrlf = input
@@ -8,8 +8,12 @@
     defaultBranch = main
 [status]
     short = true
+[push]
+    autoSetupRemote = true
 [fetch]
     prune = true
+[pull]
+    rebase = true
 [alias]
     empty = "!git commit --allow-empty"
     delete-local-merged = "!git fetch && git branch --merged | egrep -v 'master|dev|main|staging'  | xargs git branch -d"
