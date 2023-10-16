@@ -111,13 +111,13 @@ set wildignore=*.jpg,*.mp4,*.zip,*.iso,*.pdf,*.pyc,*.odt,*.png,*.gif,*.tar,*.gz,
 
 " PLUGINS ---------------------------------------------------------------- {{{
 
-call plug#begin()
+" call plug#begin()
 
 " Plug 'preservim/nerdtree'
 " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Plug 'junegunn/fzf.vim'
 
-call plug#end()
+" call plug#end()
 
 " }}}
 
